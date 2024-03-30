@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Lexend;
+    src: url(/LexendFont.ttf);
+}
+body {
+    background-color: #2b384c;  
+    font-family: Lexend;
+    margin: 0;
+    color: rgb(208, 208, 208);
+}
+.title {
+    font-size: 90px;
+    text-align: center;
+    margin-top: 80px;
+}
+.labels {
+    text-align: center;
+    font-size: 50px;
+    color:  rgb(233, 170, 61);
+}
+.navigationbar {
+    width: 100%;
+    height: 120px;
+    background-color: #2D3137;
+    font-size: 55px;
+    text-align: center;
+}
+.achievementlist {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: rgb(233, 170, 61);
+}
+li {
+    margin: 15px;
+}
+.active {
+    color: rgb(208, 208, 208);
+}
+a {
+    color:  rgb(108, 108, 108);
+    margin: 10px;
+    text-decoration:none
+}
